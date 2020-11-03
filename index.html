@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="inputs">
+        <input type="text" id="process" />
+        <input type="text" id="result" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <button type="button" class="btn" data-type="clear">C</button>
+          <button
+            type="button"
+            class="btn xi-backspace"
+            data-type="back"
+          ></button>
+        </div>
+        <div class="row">
+          <button type="button" class="btn" data-type="add">%</button>
+          <button type="button" class="btn" data-type="add">x²</button>
+          <button type="button" class="btn" data-type="add">√</button>
+          <button type="button" class="btn" data-type="operator">÷</button>
+        </div>
+        <div class="row">
+          <button type="button" class="btn" data-type="number">7</button>
+          <button type="button" class="btn" data-type="number">8</button>
+          <button type="button" class="btn" data-type="number">9</button>
+          <button type="button" class="btn" data-type="operator">×</button>
+        </div>
+        <div class="row">
+          <button type="button" class="btn" data-type="number">4</button>
+          <button type="button" class="btn" data-type="number">5</button>
+          <button type="button" class="btn" data-type="number">6</button>
+          <button type="button" class="btn" data-type="operator">-</button>
+        </div>
+        <div class="row">
+          <button type="button" class="btn" data-type="number">1</button>
+          <button type="button" class="btn" data-type="number">2</button>
+          <button type="button" class="btn" data-type="number">3</button>
+          <button type="button" class="btn" data-type="operator">+</button>
+        </div>
+        <div class="row">
+          <button type="button" class="btn" data-type="add">+/-</button>
+          <button type="button" class="btn" data-type="number">0</button>
+          <button type="button" class="btn" data-type="number">.</button>
+          <button type="button" class="btn" data-type="calc">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
