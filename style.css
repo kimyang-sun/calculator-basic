@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background-color: #eeeff6;
+  background-color: #000;
 }
 
 * {
@@ -37,6 +37,7 @@ button:active {
   height: 100vh;
   min-height: 560px;
   margin: 0 auto;
+  background-color: #eeeff6;
 }
 
 .inputs {
